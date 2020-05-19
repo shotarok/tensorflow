@@ -35,7 +35,7 @@ int inference_count = 0;
 
 // Create an area of memory to use for input, output, and intermediate arrays.
 // Finding the minimum value for your model may require some trial and error.
-constexpr int kTensorArenaSize = 2 * 1024;
+constexpr int kTensorArenaSize = 3 * 1024;
 uint8_t tensor_arena[kTensorArenaSize];
 }  // namespace
 
